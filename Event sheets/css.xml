@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>css</name>
+    <events>
+        <variable constant="0" name="fontstyle" sid="821267242036138" static="0" type="text">https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&amp;family=Caveat:wght@700&amp;family=Love+Ya+Like+A+Sister&amp;display=swap</variable>
+    </events>
+</c2eventsheet>

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Caveat:wght@700&family=Love+Ya+Like+A+Sister&display=swap');
+
+html, body {
+    background: #99cccc;
+}
+
+#button1{
+    background-color: #006600;
+    color:chocolate;
+    outline-color: #000;
+    border-color: black;
+    font-size: 26px;
+    font-family: 'Amatic SC', cursive;
+}
+
+#button1:hover{
+    background-color: #666666;
+    color: chocolate
+}
+
+#textbox{
+    background-color: aquamarine;
+    outline-color: black;
+    border-color: blue;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+}

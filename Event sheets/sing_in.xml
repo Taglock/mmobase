@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>sing_in</name>
+    <events>
+        <include>css</include>
+        <event-group description="" sid="653663615169498" title="style">
+            <sub-events>
+                <event-block sid="842101905966596">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="784067475771222" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="1" name="Request project file" sid="202254231206997" type="AJAX">
+                            <param id="0" name="Tag">&quot;read&quot;</param>
+                            <param id="1" name="File">log.txt</param>
+                        </action>
+                        <action id="5" name="Set web font" sid="926616314769484" type="log">
+                            <param id="0" name="Family name">&quot;&quot;</param>
+                            <param id="1" name="CSS URL">fontstyle</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="186720221326064">
+                            <conditions>
+                                <condition id="-14" name="Pick by unique ID" sid="556005424008250" type="log">
+                                    <param id="0" name="Unique ID">6</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="3" name="Set font size" sid="414216446141957" type="log">
+                                    <param id="0" name="Size (pt)">12</param>
+                                </action>
+                                <action id="2" name="Set font face" sid="839387980761350" type="log">
+                                    <param id="0" name="Font face">&quot;Caveat&quot;</param>
+                                    <param id="1" name="Style">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="329115020015916">
+                            <conditions>
+                                <condition id="-14" name="Pick by unique ID" sid="181778928081983" type="log">
+                                    <param id="0" name="Unique ID">8</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="3" name="Set font size" sid="838038779799022" type="log">
+                                    <param id="0" name="Size (pt)">100</param>
+                                </action>
+                                <action id="2" name="Set font face" sid="249334037328223" type="log">
+                                    <param id="0" name="Font face">&quot;Love Ya Like A Sister&quot;</param>
+                                    <param id="1" name="Style">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="397214461725649">
+                            <conditions>
+                                <condition id="-14" name="Pick by unique ID" sid="246811717713504" type="log">
+                                    <param id="0" name="Unique ID">9</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="3" name="Set font size" sid="581058388603034" type="log">
+                                    <param id="0" name="Size (pt)">12</param>
+                                </action>
+                                <action id="2" name="Set font face" sid="756354949703024" type="log">
+                                    <param id="0" name="Font face">&quot;Love Ya Like A Sister&quot;</param>
+                                    <param id="1" name="Style">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="725158834146713">
+            <conditions>
+                <condition id="0" name="On completed" sid="101846717510848" type="AJAX">
+                    <param id="0" name="Tag">&quot;read&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action disabled="1" id="5" name="Set CSS style" sid="580622072237788" type="Button">
+                    <param id="0" name="Property name">&quot;color&quot;</param>
+                    <param id="1" name="Value">&quot;red&quot;</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="530403597312309">
+                    <conditions>
+                        <condition id="-14" name="Pick by unique ID" sid="537475977812773" type="log">
+                            <param id="0" name="Unique ID">6</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="104158365573367" type="log">
+                            <param id="0" name="Text">AJAX.LastData</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>
